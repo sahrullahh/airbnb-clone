@@ -81,7 +81,7 @@ const Modal: React.FC<ModalProps> = ({
             relative
             w-full
             md:w-4/6
-            lg:w-3/6
+            lg:w-[40vh]
             my-6
             mx-auto
             h-full
@@ -173,6 +173,7 @@ const Modal: React.FC<ModalProps> = ({
                     onClick={handleSubmit}
                   />
                 </div>
+                {footer}
               </div>
             </div>
           </div>
